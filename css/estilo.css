@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.9em;
     color: #de423a;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: sans-serif, cursive;
         
 }
 .main-header__contactInfo__phone{
@@ -409,7 +409,8 @@ h1,h2,h3,h4,h5{
 		font-size: 2.5em;
 	}
 	.column--50--25{
-		width: 24.5%;
+		width: 24%;
+		
 	}
 	.today-special__tittle{
 	
