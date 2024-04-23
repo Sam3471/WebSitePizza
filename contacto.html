@@ -1,7 +1,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Galería</title>
+    <title>Contacto</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/about.css">
@@ -33,9 +33,10 @@
             <ul class="menu" id="menu">
                 <li class="menu__item"><a href="index.html" class="menu__link menu__link">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link menu__link">Nosotros</a></li>
-                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galeria</a></li>
-                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link  menu__link--select">Contacto</a></li>
             </ul>
+
             <div class="social-icon">
                 <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
                 <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
@@ -48,59 +49,40 @@
    
     
     <main class="main">
-        <section class="banner">
-            <img src="img/banner_about.jpg" alt="" class="banner__img">
-            <div class="banner__content">Comprometidos contigo</div>
-        </section>
-
-      <!-- Galería de imágenes -->
-
-            <div class="galeria">
-                <div>
-                    <div class="foto">
-                        <img src="./img/inicio3.jpg" alt="Fuego">
-                    </div>
-                    <div class="pie">
-                        <p>Dragón de Fuego</p>
-                    </div>
-                </div>
+        <form>
+            <div class="mb-3">
+                <label for="user" class="form-label">Nombre de Usuario</label>
+                <input type="user" class="form-control" id="user1" aria-describedby="userHelp">
             </div>
 
-            <div class="galeria">
-                <div class="foto">
-                    <img src="./img/inicio2.jpg" alt="Fuego">
-                </div>
-                <div class="pie">
-                    <p>Dragón de Fuego</p>
-                </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
             </div>
 
-            <div class="galeria">
-                <div class="foto">
-                    <img src="./img/inicio5.jpg" alt="Fuego">
-                </div>
-                <div class="pie">
-                    <p>Dragón de Fuego</p>
-                </div>
+            <div class="mb-3">
+                <label for="pass" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="pass1" aria-describedby="passHelp">
             </div>
 
-            <div class="galeria">
-                <div class="foto">
-                    <img src="./img/inicio4.jpg" alt="Fuego">
-                </div>
-                <div class="pie">
-                    <p>Dragón de Fuego</p>
-                </div>
+            <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Número de teléfono</label>
+                <input type="integer" class="form-control" id="number1" aria-describedby="phoneHelp">
             </div>
 
-            <div class="galeria">
-                <div class="foto">
-                    <img src="./img/img6.jpg" alt="Fuego">
-                </div>
-                <div class="pie">
-                    <p>Dragón de Fuego</p>
-                </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <input type="message" class="form-control" id="message1" aria-describedby="emailHelp">
             </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="recordar">
+                <label class="form-check-label" for="exampleCheck1">Recordar</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary boton">Enviar</button>
+
+        </form>
     </main>
 
 

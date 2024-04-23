@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
 *{
     box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -49,7 +51,7 @@ h1,h2,h3,h4,h5{
 }
 .main-header__contactInfo__phone{
     background:#de423a;
-    color: #fff;
+    color: #ff0000;
     padding: 10px;
     margin: 0;
 }
@@ -76,8 +78,8 @@ h1,h2,h3,h4,h5{
 
 .icon-menu{
     display: block;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 3px;
     width: 40px;
     height: 40px;
@@ -104,7 +106,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.3em;
     width: 35px;
     height: 35px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 50%;
 }
 
@@ -134,13 +136,13 @@ h1,h2,h3,h4,h5{
 .menu__link{
     display: block;
     padding: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #ce413a;
 }
 .menu__link--select{
     background-color: #DE423A;
@@ -163,7 +165,7 @@ h1,h2,h3,h4,h5{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1000;
     top: 0;
 }
@@ -174,7 +176,7 @@ h1,h2,h3,h4,h5{
 }
 .banner__content {
     width: 70%;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align:center;
     position: absolute;
     z-index: 1500;
@@ -215,7 +217,7 @@ h1,h2,h3,h4,h5{
 	text-decoration: none;
 	width: 120px;
 	background: #DE423A;
-	color: #fff;
+	color: #ffffff;
 	padding:10px;
 	margin: 10px auto;
 	
@@ -254,22 +256,22 @@ h1,h2,h3,h4,h5{
 
 /* Estilos Galeria */
 div.galeria{
-    margin: 25px 15px;
+    margin: 25px 15px 0 10px;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgb(150, 49, 49);
     float: left;
-    width: 350px;
+    width: 250px;
+	display: flex;
 }
 
 div.galeria img{
     width: 100%;
     height: auto;
-    
-}S
+
+}
 
 div.pie{
     text-align: center;
     text-shadow: 2px 2px 5px purple;
-    padding: 10px;
 }
 
 
@@ -277,11 +279,12 @@ div.pie{
 /*----------------Estilos Principales------------------*/
 .main-footer{
 	background: #222;
-	color: #fff;
+	color: #ffffff;
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: .8em;
+	margin-top: 300px;
 }
 .copy{
 	text-align: center;
@@ -293,7 +296,6 @@ div.pie{
 .main-footer [class*="icon-"] {
 	color: #fff;
 	text-decoration: none;
-	
 	
 }
 .main-footer [class*="icon-"]:before{
@@ -310,21 +312,21 @@ div.pie{
 /*----------------Estilos Responsivos------------------*/
 @media screen and (min-width:480px){
 	.logo{
-		color: #fff;
+		color: #ff1212;
 		
 	}
 	.main-header__contactInfo{
 		text-align:right;
 	}
 	.banner{
-		margin-top: -145px;
+		margin-top: -190px;
 		z-index: -1000;
 	}
 	.main-header__contactInfo__phone{
 		background: none;
 	}
 	.main-header__contactInfo__addres{
-		color: #fff;
+		color: #e20909;
 	}
 	.main_nav{
 		background:rgba(0,0,0,0.85);
@@ -351,7 +353,7 @@ div.pie{
 		margin: 0;
 	}
 	.today-special .column {
-		border: 5px solid #ddd;
+		border: 5px solid #ffffff;
 		padding: 5px;
 	}
 	.today-special__img{
@@ -441,9 +443,6 @@ div.pie{
 	
 	}
 }
-
-
-
 
 
 
